@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> <!--para agregar iconos de google-->
+    <title>Liliana Martin | Portfolio</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>Liliana Martin</h1>
+
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Seccion Hero-->
+    <section class="hero" id="about">
+        <img src="images/yo.jpg" alt="women in tech" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h1 class="bio-title">About me</h1>
+            <p class="bio-text">
+                Hi! I'm Liliana Martin, a student of the last semesters in Mechatronic Engineering.
+
+            </p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>More about me</h2>
+        <p>I am 24 years old and I am about to finish my degree at the Faculty of Engineering at UADY. 
+            I am currently working as a waitress in a family business, however I find myself 
+            looking for a work environment that is related to what I have studied.</p>
+        <p>My main skills are related to industrial automation but I am interested in learning more about programming.</p>
+        <p>I have taken different courses during my studies such as "Information Technology Support", "Basics about HTML and CSS", 
+            "Data scientist with python" and I want to take more courses to improve my programming skills.</p>
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header" id="">My top skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="icon/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                    <img src="icon/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                    <img src="icon/icons8-javascript.svg" alt="JavaSript" loading="lazy" class="icon icon-card">
+
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="icon/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                    <img src="icon/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                    <img src="icon/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+
+                </div>
+            </div>
+        
+    </section>
+
+    <!--PROYECTOS-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some fo my recent projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/project_1.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest clone</h3>
+                <p class="project-details">This project is a clone of the Pinterest interface, created with HTML5 and CSS3. It focuses on replicating the visual appearance of Pinterest, offering a similar browsing experience with basic functions.</p>
+                <a href="https://clondepinterest-beta.vercel.app" target="_blank" class="project-link">Check it out</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/workinprogress.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Work in progress</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipiscing elit cras, phasellus ridiculus porttitor magnis mus eget mattis conubia porta, ultrices fringilla parturient quis etiam mauris quisque. </p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/workinprogress.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Work in progress</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipiscing elit cras, phasellus ridiculus porttitor magnis mus eget mattis conubia porta, ultrices fringilla parturient quis etiam mauris quisque. </p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+            </div>
+        </div>
+    </section>
+
+    <!--REDES SOCIALES-->
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/liliana-martin-439113316/" target="_blank"><img src="icon/linkedin.png"  alt="LinkedIn" loading="lazy" class="socicon"></a>
+
+        <a href="https://wa.me/529995096744" target="_blank"><img src="icon/whatsapp.png"  alt="WhatsApp" loading="lazy" class="socicon"></a>
+
+        <a href="https://github.com/lilo0o99" target="_blank"><img src="icon/github.png"  alt="Github" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.instagram.com/lilo0o_99/" target="_blank"><img src="icon/instagram.png"  alt="Instagram" loading="lazy" class="socicon"></a>
+
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icon/subir.gif" class="socicon up-arrow" alt="scroll up">
+    </i>
+
+    <!--FOOTER-->
+    <footer>
+        <p>Built with love by <a href="https://www.linkedin.com/in/liliana-martin-439113316/" target="_blank">Lilo0o</a>✨</p>
+    </footer>
+
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+
+    <!--Ion icons scripts-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <sript nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></sript>
+</body>
+</html>
